@@ -1,0 +1,121 @@
+:root {
+  --primary-bg-color: #e5e5e5;
+  --primare-h-color: #212121;
+  --primare-p-color: #757575;
+  --primary-white-color: #ffffff;
+  --primare-blue-color: #2196f3;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  color: var(--primare-h-color);
+}
+/* logo */
+.logo {
+  font-family: raleway, sans-serif;
+  color: #000000;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.19;
+}
+/* navigation */
+.navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+.tel {
+  color: var(--primare-p-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.navigation:hover,
+.navigation:focus,
+.tel:focus,
+.tel:hover {
+  color: var(--primare-blue-color);
+}
+/* решения для бизнеса  */
+.solution {
+  background-color: #000000;
+  color: var(--primary-white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* стили сраницы */
+
+.heading-two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.heading-three {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.text {
+  color: var(--primare-p-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+}
+span {
+  color: var(--primare-blue-color);
+}
+
+ul {
+  list-style: none;
+  /* портфолио */
+}
+.button-portfolio {
+  background-color: #f5f4fa;
+
+  font-family: Roboto sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--primary-white-color);
+  background-color: var(--primare-blue-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.h-portfolio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.p-portfolio {
+  /* font-weight: 400; */
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
