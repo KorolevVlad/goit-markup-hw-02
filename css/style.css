@@ -40,6 +40,7 @@ body {
   color: var(--primare-blue-color);
 }
 /* решения для бизнеса  */
+/* background-color убирем после настройки фонового изображения */
 .solution {
   background-color: #000000;
   color: var(--primary-white-color);
