@@ -79,6 +79,11 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
+.button-write-to-us:hover,
+.button-write-to-us:focus {
+  background-color: #188ce8;
+  cursor: pointer;
+}
 /* стили сраницы с преимуществами, нашей командой*/
 
 .about-us {
