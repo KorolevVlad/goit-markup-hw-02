@@ -11,7 +11,7 @@
 body {
   font-family: roboto, sans-serif;
   color: var(--basic-text-color);
-  background-color: var(--basic-bg-color);
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -61,7 +61,8 @@ body {
 }
 /* стили решения для бизнеса, кнопки заказ  */
 
-.solution {
+.solution,
+.main-solution {
   background-color: var(--medium-dark-color);
   color: var(--primary-white-color);
   font-weight: 900;
@@ -194,10 +195,14 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-/* наши проэкты */
+/* наши проекты */
 .our-projects {
-  /* font-weight: 400; */
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  color: var(--basic-text-color);
+}
+.our-projects-web {
+  cursor: pointer;
+  text-decoration: none;
 }
